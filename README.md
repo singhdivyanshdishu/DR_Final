@@ -1,43 +1,25 @@
-# Diagonising Diabetic Retinopathy using CNN
+# Diabetic Retinopathy Diagnosis Tool
 
-## Overview
-This project aims to develop a Convolutional Neural Network (CNN) model to diagnose Diabetic Retinopathy (DR) using retinal images. The goal is to automate the classification of DR severity, enabling early detection and targeted treatment.
+## 🧠 Overview
+This project focuses on diagnosing Diabetic Retinopathy (DR) using deep learning models trained on retinal images. It includes three progressively advanced models—starting from a traditional CNN to state-of-the-art Vision Transformer (ViT) and EfficientNetB7 architectures—to improve diagnostic accuracy and reliability.
 
-## Background
-Diabetic Retinopathy is a diabetes complication that affects the eyes and can lead to vision loss. Early detection and treatment are crucial for preventing severe outcomes. This project utilizes deep learning techniques to analyze retinal images and classify the severity of DR.
+## 🔬 Background
+Diabetic Retinopathy is a serious eye condition caused by diabetes that can lead to blindness if undetected. Automated systems that analyze retinal images can assist doctors in early detection and intervention.
 
-## Features
-- Automated classification of Diabetic Retinopathy severity
-- High accuracy in image analysis
-- User-friendly interface for model deployment
+## 🚀 Models Used
+- ✅ **CNN (Convolutional Neural Network)** – Initial baseline model for DR classification.
+- ⚡ **EfficientNetB7** – Lightweight yet powerful CNN architecture offering superior performance.
+- 🧠 **Vision Transformer (ViT)** – Uses transformer-based architecture for vision tasks, ideal for capturing complex image features.
 
-## Technology Stack
-- **Programming Language:** Python
-- **Frameworks:** TensorFlow, Keras
-- **Libraries:** NumPy, OpenCV, Matplotlib, scikit-learn
-- **Deep Learning:** Convolutional Neural Networks (CNN)
+## 🧰 Technology Stack
+- **Language**: Python
+- **Frameworks**: TensorFlow, Keras, PyTorch
+- **Libraries**: NumPy, OpenCV, Matplotlib, scikit-learn
+- **Model Types**: `.h5`, `.keras`, `.pth`
 
 ## Live Link
-[Live Link](https://diagonising-diabetic-retinopathy-cnn.streamlit.app/)
+[Live Link](https://huggingface.co/spaces/singhdivyanshdishu/diabetic-retinopathy-diagonastic-tool/tree/main/model)
 
-## Installation
-To set up the project, follow these steps:
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/singhdivyanshdishu/Diagonising-Diabetic-Retinopathy-using-CNN.git
-2. Navigate to the project directory:
-   ```bash
-   cd Diagonising-Diabetic-Retinopathy-using-CNN
-3. Install the required packages:
-    ```bash
-    pip install -r requirements.txt
-
-## Usage
-To run the model, use the following command:
-```bash
-streamlit run main.py
-```
-Make sure to have your retinal images ready for analysis. The model will output the classification results based on the input images.
-
+## 📁 Project Structure
+![image](https://github.com/user-attachments/assets/f4cc54a5-156c-466f-b55d-60268492f06d)
 
